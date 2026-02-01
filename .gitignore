@@ -1,0 +1,39 @@
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Data files
+data/*.db*
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Backup files
+backups/*
+!backups/.gitkeep
+
+# Log files
+logs/*
+!logs/.gitkeep
+
+# Environment files
+.env
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.out
+vendor/
