@@ -45,7 +45,7 @@ brew install sqlcipher
 ### Setup
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/secure-notes
+git clone https://github.com/amirk1998/secure-notes
 cd secure-notes
 
 # Run setup script
